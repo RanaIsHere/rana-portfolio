@@ -15,7 +15,7 @@ function ProjectFragment(props: { name: string, category: string, tech: string, 
 
             <div className="project-fragment-actions">
                 <a target="_blank" href={props.githubLink}><button>Github</button></a>
-                {props.hasWebsite && <a href={props.websiteLink}><button>Website</button></a>}
+                {props.hasWebsite && <a target="_blank" href={props.websiteLink}><button>Website</button></a>}
             </div>
         </div>
     );
