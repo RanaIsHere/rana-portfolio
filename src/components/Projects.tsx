@@ -23,6 +23,23 @@ function Projects() {
             hasWebsite: true,
             websiteLink: "https://sirrana.itch.io/xenoterminated",
         },
+        {
+            name: "Budgetpacks",
+            category: "Personal Work",
+            tech: "NextJS, React, TailwindCSS",
+            description: "A recent project of mine to learn the associated frameworks and newer database systems such as GraphQL. It is a web application that users can use to maange their personal finances and track their spending. At the moment, it is still work in progress.",
+            githubLink: "https://github.com/RanaIsHere/budgetpacks",
+            hasWebsite: false
+        },
+        {
+            name: "Portfolio",
+            category: "Personal Work",
+            tech: "Vite, React.JS",
+            description: "This is the website you are currently on! It's a personal portfolio website to be used during showcases and professional work.",
+            githubLink: "https://github.com/RanaIsHere/rana-portfolio",
+            hasWebsite: true,
+            websiteLink: "https://rana-rosihan-portfolio.vercel.app/"
+        }
     ];
 
     const projectFragments = selectedCategory == 'Academic Work' ? projects.filter(project => project.category == 'Academic Work') : projects.filter(project => project.category == 'Personal Work');

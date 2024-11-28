@@ -7,7 +7,7 @@
     justify-content: start;
     background-color: #202020;
     color: #f0f0f0;
-    height: 100vh;
+    min-height: 100vh;
     /* width: 35%; */
     padding-left: 16rem;
     padding-right: 16rem;
@@ -34,8 +34,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    overflow-y: scroll;
-    scrollbar-width: thin;
+    /* overflow-y: scroll; */
+    /* scrollbar-width: thin; */
 }
 
 /* Project Fragment */
