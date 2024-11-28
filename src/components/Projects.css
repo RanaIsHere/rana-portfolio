@@ -1,0 +1,73 @@
+/* Project Main */
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: #202020;
+    color: #f0f0f0;
+    height: 100vh;
+    /* width: 35%; */
+    padding-left: 16rem;
+    padding-right: 16rem;
+}
+
+.projects-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-content .actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+/* Project Fragment */
+
+.project-fragment {
+    width: 50%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #111111;
+    border-radius: 1rem;
+    padding: 2rem;
+    min-width: 50em;
+}
+
+.project-fragment-title .project-name {
+    color: #ff3131;
+    font-size: 2.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.project-fragment-title .project-tech {
+    color: #ff3131;
+    font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.project-fragment-details {
+    margin-bottom: 2rem;
+}
+
+.project-fragment-actions button {
+    margin-right: 20px;
+}
