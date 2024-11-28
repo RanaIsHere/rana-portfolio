@@ -10,9 +10,26 @@ function Projects() {
             name: "Windblade",
             category: "Academic Work",
             tech: "PHP, Laravel, TailwindCSS, DaisyUI, SQL",
-            description: "This is one of the largest academic work undertaken, with CRUD applied throughout the project. It is a web application that is used to manage the data of a laundromat franchise, hypothetically.",
+            description: "This is one of the largest academic work undertaken, with CRUD applied throughout the project. It is dashboard web application that is used to manage the data of a laundromat franchise, hypothetically.",
             githubLink: "https://github.com/RanaIsHere/windblade",
             hasWebsite: false,
+        },
+        {
+            name: "Cepheus Patron",
+            category: "Academic Work",
+            tech: "PHP, Laravel, Bootstrap, JQuery, SQL",
+            description: "This is another large-scale academic work undertaken, with CRUD applied throughout the project. It is a dashboard web application that is hypothetically used to manage a retail (similar to a Point of Sale System). ",
+            githubLink: "https://github.com/RanaIsHere/cepheus-patron",
+            hasWebsite: false
+        },
+        {
+            name: "Goblins in My Vicinity!",
+            category: "Personal Work",
+            tech: "Godot Engine, Blender, Audacity",
+            description: "My latest personal project in game development, and certainly one of my complex ones. It is a 3D shooter/action game set in an infinite forest with a mission to survive as long as possible. It has random generation employing threading, a scaling difficulty, and even a crafting system.",
+            githubLink: "https://github.com/RanaIsHere/goblins-in-my-vicinity",
+            hasWebsite: true,
+            websiteLink: "https://ravenscope.itch.io/there-are-goblins-in-my-vicinity",
         },
         {
             name: "Xenoterminated",
@@ -21,7 +38,7 @@ function Projects() {
             description: "This one is my first personal (released) game under the guise of a short-term game jam. It is a 2D top-down shooter game, set on another planet.",
             githubLink: "https://github.com/RanaIsHere/xenoterminated",
             hasWebsite: true,
-            websiteLink: "https://sirrana.itch.io/xenoterminated",
+            websiteLink: "https://ravenscope.itch.io/xenoterminated",
         },
         {
             name: "Budgetpacks",
