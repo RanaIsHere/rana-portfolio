@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import ProjectFragment from './ProjectFragment';
 import './Projects.css';
 
