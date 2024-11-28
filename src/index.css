@@ -14,6 +14,11 @@
   scroll-behavior: smooth;
 }
 
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -26,9 +31,12 @@ a:hover {
 
 body {
   margin: 0;
+  padding: 0;
   /* display: flex; */
   /* place-items: center; */
   min-width: 320px;
+  width: 100%;
+  overflow-x: hidden;
   /* min-height: 100vh; */
 }
 
