@@ -22,14 +22,14 @@ function Projects() {
             githubLink: "https://github.com/RanaIsHere/cepheus-patron",
             hasWebsite: false
         },
-        {
-            name: "Budgetpacks",
-            category: "Personal Work",
-            tech: "NextJS, React, TailwindCSS",
-            description: "A recent project of mine to learn the associated frameworks and newer database systems such as GraphQL. It is a web application that users can use to maange their personal finances and track their spending. At the moment, it is still work in progress.",
-            githubLink: "https://github.com/RanaIsHere/budgetpacks",
-            hasWebsite: false
-        },
+        // {
+        //     name: "Budgetpacks",
+        //     category: "Personal Work",
+        //     tech: "NextJS, React, TailwindCSS",
+        //     description: "A recent project of mine to learn the associated frameworks and newer database systems such as GraphQL. It is a web application that users can use to maange their personal finances and track their spending. At the moment, it is still work in progress.",
+        //     githubLink: "https://github.com/RanaIsHere/budgetpacks",
+        //     hasWebsite: false
+        // },
         {
             name: "Goblins in My Vicinity!",
             category: "Personal Work",
