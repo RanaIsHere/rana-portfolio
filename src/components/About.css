@@ -34,13 +34,6 @@
     margin-right: 16rem;
 }
 
-@media (max-width: 768px) {
-    .details {
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
-}
-
 .actions {
     display: flex;
     flex-direction: row;
@@ -58,4 +51,23 @@
 
 .highlight-laravel {
     color: #ff3131;
+}
+
+@media (max-width: 920px) {
+    .details {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    #about .details p {
+        text-align: start;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 463px) {
+    #about .details p {
+        text-align: start;
+        font-size: 1rem;
+    }
 }

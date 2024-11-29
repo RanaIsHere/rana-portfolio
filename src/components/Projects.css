@@ -52,20 +52,6 @@
     max-width: 40em;
 }
 
-@media (max-width: 768px) {
-    .project-fragment {
-        padding: 1rem;
-        max-width: 20em;
-    }
-}
-
-@media (max-width: 468px) {
-    .project-fragment {
-        padding: 1rem;
-        max-width: 18em;
-    }
-}
-
 .project-fragment-title .project-name {
     color: #ff3131;
     font-size: 2.2rem;
@@ -86,4 +72,18 @@
 
 .project-fragment-actions button {
     margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .project-fragment {
+        padding: 1rem;
+        max-width: 20em;
+    }
+}
+
+@media (max-width: 468px) {
+    .project-fragment {
+        padding: 1rem;
+        max-width: 18em;
+    }
 }
