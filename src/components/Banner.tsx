@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './Banner.css';
 
 function Banner() {
-    const roles = ['Laravel Developer', 'React Developer', 'Game Developer'];
+    const roles = ['React Developer', 'Laravel Developer', 'Game Developer'];
     const [currentRole, setCurrentRole] = useState(0);
     const [fadeClass, setFadeClass] = useState("fadeIn");
 
