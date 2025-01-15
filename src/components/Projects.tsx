@@ -31,6 +31,23 @@ function Projects() {
         //     hasWebsite: false
         // },
         {
+            name: "Leetview",
+            category: "Personal Work",
+            tech: "MongoDB, ExpressJS, React.JS, Javascript",
+            description: "1337view (leetview) is a video-sharing platform elegantly designed for simplicity. It is a personal project, with minimal power to showcase skillsets.",
+            githubLink: "https://github.com/RanaIsHere/leetview",
+            hasWebsite: false,
+        },
+        {
+            name: "Portfolio",
+            category: "Personal Work",
+            tech: "Vite, React.JS",
+            description: "This is the website you are currently on! It's a personal portfolio website to be used during showcases and professional work.",
+            githubLink: "https://github.com/RanaIsHere/rana-portfolio",
+            hasWebsite: true,
+            websiteLink: "https://rana-rosihan-portfolio.vercel.app/"
+        },
+        {
             name: "Goblins in My Vicinity!",
             category: "Personal Work",
             tech: "Godot Engine, Blender, Audacity",
@@ -48,15 +65,6 @@ function Projects() {
             hasWebsite: true,
             websiteLink: "https://ravenscope.itch.io/xenoterminated",
         },
-        {
-            name: "Portfolio",
-            category: "Personal Work",
-            tech: "Vite, React.JS",
-            description: "This is the website you are currently on! It's a personal portfolio website to be used during showcases and professional work.",
-            githubLink: "https://github.com/RanaIsHere/rana-portfolio",
-            hasWebsite: true,
-            websiteLink: "https://rana-rosihan-portfolio.vercel.app/"
-        }
     ];
 
     const projectFragments = selectedCategory == 'Academic Work' ? projects.filter(project => project.category == 'Academic Work') : projects.filter(project => project.category == 'Personal Work');
